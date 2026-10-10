@@ -9,8 +9,8 @@
     "role.4":"Detallarga e'tiborli",
 
     "about.label": "01 — about",
-    "about.title": "Kim bu isom1ddinov?",
-    "about.text1": "<strong>isom1ddinov</strong> — frontend yo'nalishida ishlaydigan dasturchi. So'nggi 3 yil davomida veb-interfeyslar qurish, statik saytlardan tortib interaktiv veb-ilovalargacha bo'lgan loyihalar ustida ishlaganman.",
+    "about.title": "Kim bu zafar?",
+    "about.text1": "<strong>zafar</strong> — frontend yo'nalishida ishlaydigan dasturchi. So'nggi 3 yil davomida veb-interfeyslar qurish, statik saytlardan tortib interaktiv veb-ilovalargacha bo'lgan loyihalar ustida ishlaganman.",
     "about.text2": "Kodni aniq, o'qilishi oson va uzoq muddat qo'llab-quvvatlanadigan qilib yozishga harakat qilaman. Frontendda vizual detallarga, Python orqali esa avtomatlashtirish va muammolarni yechishga qiziqaman.",
     "about.text3": "Har bir loyihada bitta savolni beraman: <strong>bu interfeys odamning vaqtini tejaydimi?</strong> Javob \"ha\" bo'lmaguncha ishlashda davom etaman.",
     "about.stat1": "YIL TAJRIBA",
@@ -50,8 +50,8 @@
 "experience.item1.desc": "D4RK.SOFT - loyihasida 2025 yil yuritishni boshlab ko'p odamlarni kod yozishga qiziqtirganman.",
 "experience.item2.role": "prodent.uz — Expert",
 "experience.item2.desc": "prodent.uz - kompaniyasida veb sayt va ilovalarni odamlarga tushuntirib, ularga ko'mak berib kelmoqdaman.",
-"experience.item3.role": "isom1ddinov.uz — Developer",
-"experience.item3.desc": "isom1ddinov.uz - loyihasida o'zimning hayotim, qilgan ishlarim va bilimlarimni ulashib bormoqdaman.",
+"experience.item3.role": "zafar.uz — Developer",
+"experience.item3.desc": "zafar.uz - loyihasida o'zimning hayotim, qilgan ishlarim va bilimlarimni ulashib bormoqdaman.",
 
 "projects.label": "06 — projects",
 "projects.title": "Loyihalar",
@@ -127,7 +127,7 @@
 "footer.page": "Sahifa",
 "footer.more": "Ko'proq",
 "footer.social": "Ijtimoiy",
-"footer.copyright": "© 2026 isom1ddinov.uz",
+"footer.copyright": "© 2026 zafar.uz",
 "footer.built": "HTML · CSS · JS bilan yaratilgan",
 
 

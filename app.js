@@ -62,7 +62,7 @@ function checkAuthState() {
         document.getElementById('user-display-name').textContent = username;
 
         const badgeEl = document.getElementById('user-badge');
-        if (role === 'founder' || username === 'isom1ddinov') badgeEl.innerHTML = `<span class="badge-founder">Founder</span>`;
+        if (role === 'founder' || username === 'zafar') badgeEl.innerHTML = `<span class="badge-founder">Founder</span>`;
         else if (role === 'admin') badgeEl.innerHTML = `<span class="badge-admin">Admin</span>`;
         else badgeEl.innerHTML = '';
     } else if (authBlock) {
@@ -119,15 +119,15 @@ async function loadComments() {
 }
 
 function renderCommentItem(c, replies, currentRole, currentUsername) {
-    const isFounder = c.user_role === 'founder' || c.username === 'isom1ddinov';
+    const isFounder = c.user_role === 'founder' || c.username === 'zafar';
     const isAdmin = c.user_role === 'admin';
     const isMyComment = currentUsername === c.username;
 
-    const myRole = (currentUsername === 'isom1ddinov') ? 'founder' : currentRole;
+    const myRole = (currentUsername === 'zafar') ? 'founder' : currentRole;
 
     const canDelete = myRole === 'founder' || myRole === 'admin' || isMyComment;
     const canPin = (myRole === 'founder' || myRole === 'admin') && !c.parent_id;
-    const canMakeAdmin = myRole === 'founder' && c.username !== 'isom1ddinov';
+    const canMakeAdmin = myRole === 'founder' && c.username !== 'zafar';
 
     const item = document.createElement('div');
     item.className = `comment-item ${c.is_pinned ? 'pinned-comment' : ''}`;
@@ -181,7 +181,7 @@ function renderCommentItem(c, replies, currentRole, currentUsername) {
                 ${replies.map(r => `
                     <div class="comment-item" style="margin-bottom: 8px;">
                         <div class="comment-header">
-                            <span class="author-name ${r.username === 'isom1ddinov' || r.user_role === 'founder' ? 'founder-name' : ''}">${escapeHtml(r.username)}</span>
+                            <span class="author-name ${r.username === 'zafar' || r.user_role === 'founder' ? 'founder-name' : ''}">${escapeHtml(r.username)}</span>
                         </div>
                         <div class="comment-text">${escapeHtml(r.text)}</div>
                         <div class="comment-footer-info">

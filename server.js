@@ -50,14 +50,14 @@ try {
     db.exec(`ALTER TABLE comments ADD COLUMN is_pinned INTEGER DEFAULT 0;`);
 } catch (e) {}
 
-// Founder (isom1ddinov) hisobini yaratish yoki yangilash
-const founderUser = db.prepare('SELECT * FROM users WHERE username = ?').get('isom1ddinov');
+// Founder (zafar) hisobini yaratish yoki yangilash
+const founderUser = db.prepare('SELECT * FROM users WHERE username = ?').get('zafar');
 if (!founderUser) {
     const hash = bcrypt.hashSync('admin20072007', 10);
-    db.prepare('INSERT INTO users (username, password, role) VALUES (?, ?, ?)').run('isom1ddinov', hash, 'founder');
-    console.log('Founder yaratildi: isom1ddinov');
+    db.prepare('INSERT INTO users (username, password, role) VALUES (?, ?, ?)').run('zafar', hash, 'founder');
+    console.log('Founder yaratildi: zafar');
 } else {
-    db.prepare('UPDATE users SET role = ? WHERE username = ?').run('founder', 'isom1ddinov');
+    db.prepare('UPDATE users SET role = ? WHERE username = ?').run('founder', 'zafar');
 }
 
 function authenticateToken(req, res, next) {
@@ -135,7 +135,7 @@ app.get('/api/comments', (req, res) => {
     const allComments = db.prepare(`
     SELECT c.*,
            (SELECT COUNT(*) FROM comment_likes WHERE comment_id = c.id) as likes_count,
-           (SELECT COUNT(*) FROM comment_likes WHERE comment_id = c.id AND (user_role = 'founder' OR username = 'isom1ddinov')) as liked_by_founder
+           (SELECT COUNT(*) FROM comment_likes WHERE comment_id = c.id AND (user_role = 'founder' OR username = 'zafar')) as liked_by_founder
     FROM comments c
     ORDER BY c.created_at ASC
   `).all();

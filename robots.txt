@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://isom1ddinov.uz/sitemap.xml
+Sitemap: https://zafar.uz/sitemap.xml

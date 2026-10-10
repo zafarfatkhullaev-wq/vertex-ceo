@@ -9,8 +9,8 @@
     "role.4": "Python Developer",
 
     "about.label": "01 — about",
-    "about.title": "Who is isom1ddinov?",
-    "about.text1": "<strong>isom1ddinov</strong> — a frontend developer. For the past 3 years, I have been building web interfaces, from static websites to interactive web applications.",
+    "about.title": "Who is zafar?",
+    "about.text1": "<strong>zafar</strong> — a frontend developer. For the past 3 years, I have been building web interfaces, from static websites to interactive web applications.",
     "about.text2": "I strive to write code that is clean, readable, and easy to maintain in the long term. In frontend development, I focus on visual details, while with Python I enjoy automation and problem solving.",
     "about.text3": "For every project, I ask one question: <strong>does this interface save people's time?</strong> I keep working until the answer is \"yes\".",
     "about.stat1": "YEARS EXPERIENCE",
@@ -49,8 +49,8 @@
 "experience.item1.desc": "In 2025, I started developing the D4RK.SOFT project and inspired many people to become interested in coding.",
 "experience.item2.role": "prodent.uz — Expert",
 "experience.item2.desc": "At prodent.uz, I help people understand and use our websites and applications.",
-"experience.item3.role": "isom1ddinov.uz — Developer",
-"experience.item3.desc": "Through isom1ddinov.uz, I share my life, projects, work, and knowledge with others.",
+"experience.item3.role": "zafar.uz — Developer",
+"experience.item3.desc": "Through zafar.uz, I share my life, projects, work, and knowledge with others.",
 
 "projects.label": "06 — projects",
 "projects.title": "Projects",
@@ -126,7 +126,7 @@
 "footer.page": "Page",
 "footer.more": "More",
 "footer.social": "Social",
-"footer.copyright": "© 2026 isom1ddinov.uz",
+"footer.copyright": "© 2026 zafar.uz",
 "footer.built": "built with HTML · CSS · JS",
 
     "contact.copy": "copy email",
